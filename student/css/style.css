@@ -1,0 +1,73 @@
+.image-div img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.success {
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.danger {
+    background-color: #f2dede;
+    color: #a94442;
+    border: 1px solid #ebccd1;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.form-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+select.form-control {
+    height: auto;
+}
+
+.radio-group label {
+    margin-right: 15px;
+}
+
+.btn-submit {
+    background-color: #428bca;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #357ebd;
+}
+
+.error {
+    color: red;
+}
